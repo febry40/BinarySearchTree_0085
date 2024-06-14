@@ -48,5 +48,14 @@ public:
 		{
 			parent->leftchild = newNode;
 		}
+		else if (element > parent->info)
+		{
+			parent->rightchild = newNode;
+		}
+	}
+
+	void search(string element, Node*& parent, Node*& currentNode)
+	{
+		currentNode = ROOT;
 	}
 };
