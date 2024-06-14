@@ -45,5 +45,8 @@ public:
 		}
 
 		if (element < parent->info)
+		{
+			parent->leftchild = newNode;
+		}
 	}
 };
