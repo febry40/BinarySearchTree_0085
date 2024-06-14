@@ -15,5 +15,12 @@ public:
 		leftchild = 1;
 		rightchild = r;
 	}
+};
+
+class BinaryTree
+{
+public:
+	Node* ROOT;
+
 
 };
