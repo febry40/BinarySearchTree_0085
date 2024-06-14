@@ -9,10 +9,10 @@ public:
 	Node* leftchild;
 	Node* rightchild;
 
-	Node(string i, Node * 1, Node* r)
+	Node(string i, Node * l, Node* r)
 	{
 		info = 1;
-		leftchild = 1;
+		leftchild = l;
 		rightchild = r;
 	}
 };
@@ -32,7 +32,7 @@ public:
 		Node* newNode = new Node(element, NULL, NULL);
 		newNode->info = element;
 		newNode->leftchild = NULL;
-		newNode->rightchild->NULL;
+		newNode->rightchild = NULL;
 
 		Node* parent = NULL;
 		Node* currentNode = NULL;
